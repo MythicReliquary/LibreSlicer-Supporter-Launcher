@@ -1,0 +1,27 @@
+name: Documentation issue
+description: Report an error or unclear section in the public docs
+title: "Docs: "
+labels: ["documentation"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: File path, e.g. Docs/SETUP_GUIDE.md
+      placeholder: Docs/SETUP_GUIDE.md
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong?
+      description: Describe the issue and what you'd like changed.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested wording (optional)
+      description: If you have proposed wording, paste it here.
+    validations:
+      required: false

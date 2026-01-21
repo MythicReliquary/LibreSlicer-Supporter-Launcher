@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Customer support
+    url: mailto:support@mythicreliquary.com
+    about: Licensing, downloads, activation, and general help.
+  - name: Documentation corrections
+    url: https://github.com/MythicReliquary/LibreSlicer-Supporter-Launcher/pulls
+    about: Propose edits via pull request.
