@@ -16,3 +16,6 @@ The application/launcher itself is proprietary and is not included in this repos
 
 ## Support
 - Email `support@mythicreliquary.com`
+
+## Evaluations
+- To request an evaluation copy, email `support@mythicreliquary.com`

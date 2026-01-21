@@ -30,6 +30,7 @@ Get-Content .\SHA256SUMS | ForEach-Object {
 ## 4) Licensing overview (what end users need to know)
 Your bundle may be distributed as separate tiers, but the binaries can be identical. The license determines permitted use.
 
+- **Evaluation / Trial**: available from the vendor (or an authorized distributor) for prospective customers to try before purchasing. See `EULA.md`. To request an evaluation copy, email `support@mythicreliquary.com`.
 - **Personal (Individual / Non-Commercial)**: perpetual (non-expiring) license for use that does not generate revenue. See `EULA.individual.md`.
 - **Indie/Commercial (Business Use)**: term (subscription) license for internal business use and revenue-generating work. See `EULA.commercial.md`.
 
