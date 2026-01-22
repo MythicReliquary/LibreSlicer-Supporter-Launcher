@@ -4,6 +4,8 @@ Welcome! This repository hosts the customer-facing documentation that ships with
 
 The application/launcher itself is proprietary and is not included in this repository.
 
+Branding note: the product is currently branded as MSMP. A future rebrand milestone is documented below.
+
 ## Start here
 - `Docs/INDEX.md`
 
@@ -21,7 +23,7 @@ The following pricing is informational; your invoice/receipt controls the actual
 
 Notes:
 - No feature gating: tiers differ by license terms and support, not binaries/features.
-- Funding goal: at $500k total sales, MSMP source will be published under AGPL and the repository will be made public.
+- When total sales reach $500,000, MSMP will be rebranded as LibreSlicer prior to publishing the src/ under GNU AGPLv3.
 - Purchase links/buttons (where shown) read “Coming Soon”.
 
 ## Support

@@ -3,6 +3,11 @@
 **Effective date:** 2025-12-01  
 **Applies to:** Commercial, internal business use of MSMP (including `devpacks-cli.exe` and optional local UI components such as `MSMPLauncher.exe`), and any vendor-provided Docker images.
 
+**Informational notice (no change to current terms):**  
+> When total sales reach $500,000, MSMP will be rebranded as LibreSlicer prior to publishing the src/ under GNU AGPLv3.
+
+This notice is informational only and does not modify this EULA. No licensing change occurs until that milestone is reached.
+
 ## 1. Acceptance
 By downloading, installing, or using the software for commercial purposes, you agree to this EULA. If you do not agree, do not use the software.
 
