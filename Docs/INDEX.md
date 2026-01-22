@@ -1,4 +1,4 @@
-# Public Docs Index
+# MSMP Public Docs Index
 
 - Setup: `SETUP_GUIDE.md`
 - SLA tiers: `SLA.md`

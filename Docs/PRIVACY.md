@@ -1,10 +1,10 @@
 # Privacy Policy (Zero Telemetry)
 
 **Effective date:** 2025-12-01  
-**Applies to:** Dev_Packs CLI tools, any local UI components included with your bundle (e.g., launcher and/or local UI assets), and any vendor-provided Docker images.
+**Applies to:** MSMP (including `devpacks-cli.exe` and optional local UI components such as `MSMPLauncher.exe`), and any vendor-provided Docker images.
 
 ## Summary
-LibreSlicer Supporter Bundle is designed to run fully offline. The software does not include telemetry, analytics, tracking, or advertising SDKs, and it does not automatically transmit your files, models, logs, or usage data to Mythic Reliquary or third parties.
+MSMP is designed to run fully offline. The software does not include telemetry, analytics, tracking, or advertising SDKs, and it does not automatically transmit your files, models, logs, or usage data to Mythic Reliquary or third parties.
 
 ## What data the software collects
 The software does not collect personal data for telemetry purposes.
@@ -26,7 +26,7 @@ Some commercial/term licenses require a signed revocation list file (`revoked_ke
 If you contact support (for example, by email), the contents of your message and any attachments are handled like normal email correspondence and may include personal data you choose to provide.
 
 ## Third-party components
-The bundle may include third-party components that remain under their respective licenses. This privacy policy describes the intended behavior of the bundle as distributed; your operating system, drivers, security software, or other third-party tools may independently collect data.
+The MSMP distribution may include third-party components that remain under their respective licenses. This privacy policy describes the intended behavior of MSMP as distributed; your operating system, drivers, security software, or other third-party tools may independently collect data.
 
 ## Changes
 This policy may be updated in future releases. The effective date will be revised when changes are made.

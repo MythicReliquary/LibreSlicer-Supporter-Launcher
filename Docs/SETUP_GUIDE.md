@@ -1,12 +1,12 @@
-# LibreSlicer Supporter Bundle - Setup Guide (Offline-Friendly)
+# Mythic Secure Manufacturing Platform (MSMP) - Setup Guide (Offline-Friendly)
 
-This bundle is designed to run fully offline (zero telemetry). Nothing is uploaded; there is no auto-updater.
+MSMP is designed to run fully offline (zero telemetry). Nothing is uploaded; there is no auto-updater.
 
 Privacy policy: `PRIVACY.md`.
 
 ## 1) What you installed
-- `devpacks-cli.exe`: Headless CLI tools (repair, hollowing, supports, QA, simulations, etc.).
-- `LSSBLauncher.exe` (optional): A local UI that runs the CLI on your machine (no network).
+- `devpacks-cli.exe`: MSMP headless CLI tools (repair, hollowing, supports, QA, simulations, etc.).
+- `MSMPLauncher.exe` (optional): A local UI that runs the CLI on your machine (no network).
 - `profiles/`: Offline material profiles/presets.
 - License and terms: `EULA.individual.md`, `EULA.commercial.md`, `EULA.md`.
 
@@ -30,13 +30,19 @@ Get-Content .\SHA256SUMS | ForEach-Object {
 ```
 
 ## 4) Licensing overview (what end users need to know)
-Your bundle may be distributed as separate tiers, but the binaries can be identical. The license determines permitted use.
+MSMP may be distributed as separate tiers, but the binaries can be identical. The license determines permitted use.
 
 - **Evaluation / Trial**: available from the vendor (or an authorized distributor) for prospective customers to try before purchasing. See `EULA.md`. To request an evaluation copy, email `support@mythicreliquary.com`.
 - **Personal (Individual / Non-Commercial)**: perpetual (non-expiring) license for use that does not generate revenue. See `EULA.individual.md`.
-- **Indie/Commercial (Business Use)**: term (subscription) license for internal business use and revenue-generating work. See `EULA.commercial.md`.
+- **Indie / Studio / Enterprise (Business Use)**: term (subscription) licenses for internal business use and revenue-generating work. See `EULA.commercial.md`.
 
 Tiers also map to support/SLA engagement levels (`SLA.md`). Purchases at lower tiers can fund development of higher-tier workflows/features, but the software does not enforce feature gating by tier (terms and support differ, not the binaries).
+
+Typical pricing (informational; invoice/receipt controls):
+- **Personal**: $49.99 one-time
+- **Indie**: $199.99/year (up to 3 seats)
+- **Studio**: starting at $999/year (Contact Sales)
+- **Enterprise**: starting at $1999/year (Contact Sales)
 
 Questions: `support@mythicreliquary.com`.
 
@@ -67,7 +73,7 @@ Then run the CLI with an explicit license path:
 
 If the license is valid, you can run workflows like:
 ```powershell
-.\devpacks-cli.exe personal .\project.json --license-key .\license.key --output .\bundle_summary.json --artifact-dir .\artifacts
+.\devpacks-cli.exe personal .\project.json --license-key .\license.key --output .\msmp_summary.json --artifact-dir .\artifacts
 ```
 
 ## 7) Revocation list (Commercial/term licenses)
@@ -93,8 +99,8 @@ Release builds will look for one of these filenames next to `devpacks-cli.exe` o
 If you don't use compliance commands/features, you can ignore this.
 
 ## 9) Using the launcher (optional)
-- Run `LSSBLauncher.exe` (tray icon appears).
-- Tray menu -> open the Command Palette.
+- Run `MSMPLauncher.exe` (tray icon appears).
+- Tray menu -> open the MSMP Command Palette.
 - Choose a workflow (Repair / Hollow / Supports / QA / Simulations), select your input file(s), then run.
 
 ## 10) Troubleshooting

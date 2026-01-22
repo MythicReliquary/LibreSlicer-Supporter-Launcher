@@ -1,9 +1,9 @@
 # Revocation Updates (Commercial / Term Licenses, Offline)
 
-LibreSlicer Supporter Tools are designed to run fully offline (zero telemetry). Because the software cannot "phone home", **term (subscription) licenses require a signed revocation list file** so compromised/stolen keys can be invalidated over time.
+MSMP is designed to run fully offline (zero telemetry). Because the software cannot "phone home", **term (subscription) licenses require a signed revocation list file** so compromised/stolen keys can be invalidated over time.
 
 ## What you get
-For Commercial/Indie deployments you will receive:
+For Indie/Studio/Enterprise deployments you will receive:
 - `license.key` (signed license token)
 - `revoked_keys.json` (signed revocation list)
 
